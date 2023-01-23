@@ -2,13 +2,13 @@
 
 	global $con;
 
-	$hostname = 'localhost'; 	// Host Name
+	$hostname = 'dba120-db.dangerdane.io'; 	// Host Name
 	
-	$user = 'root'; 			// username of host
+	$user = 'dane9640'; 			// username of host
 	
-	$password = ''; 			// password of host
+	$password = 'wd6ebwyw'; 			// password of host
 	
-	$dbname = 'angular'; 			//database name
+	$dbname = 'dba120_db'; 			//database name
 			
 	$con = new mysqli($hostname,$user,$password,$dbname);
 	if (mysqli_connect_errno())
